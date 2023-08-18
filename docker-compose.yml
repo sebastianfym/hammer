@@ -5,7 +5,7 @@ services:
     restart: always
     container_name: db_hammer
     ports:
-      - "5432:5432"
+      - "5433:5433"
     image: postgres:16beta3
     environment:
       POSTGRES_DB: postgres #db_hammer
