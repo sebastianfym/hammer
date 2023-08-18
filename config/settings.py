@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-azf@5egd7h)zsq2hmy8ci!f4t74^+*ba1)2-+ie$y^oj$xnhm3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'hammer.railway.internal']
+ALLOWED_HOSTS = ['localhost', 'hammer.railway.internal', 'hammer-production.up.railway.app']
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 # Application definition
