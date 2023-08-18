@@ -25,12 +25,12 @@ SECRET_KEY = 'django-insecure-azf@5egd7h)zsq2hmy8ci!f4t74^+*ba1)2-+ie$y^oj$xnhm3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'hammer.railway.internal', 'hammer-production.up.railway.app']
+ALLOWED_HOSTS = ['localhost', '45.12.73.235']
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 # Application definition
 
-CSRF_TRUSTED_ORIGINS = ['http://localhost:8000']
+CSRF_TRUSTED_ORIGINS = ['http://localhost:8000', 'http://localhost:8808', 'http://localhost:3000']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
