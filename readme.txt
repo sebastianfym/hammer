@@ -43,3 +43,6 @@
         refresh: Refresh токен пользователя.
         Пример запроса:
             curl -X POST -H "Content-Type: application/json" -d '{"refresh": "YOUR_REFRESH_TOKEN"}' 45.12.73.235:8808/user/token/refresh/
+
+
+Postman: https://www.postman.com/aviation-candidate-67374819/workspace/hammer-postman/overview
