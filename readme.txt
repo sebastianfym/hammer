@@ -33,9 +33,10 @@
             curl -X POST -H "Authorization: Bearer YOUR_ACCESS_TOKEN" -H "Content-Type: application/json" -d '{"invite_code": "ABC123"}' http://localhost:8000/user/profile/change_profile/
 
 3. Обновление токена
-    Endpoint: /token/refresh/
-    HTTP метод: POST
-    Параметры:
-    refresh: Refresh токен пользователя.
-    Пример запроса:
-        curl -X POST -H "Content-Type: application/json" -d '{"refresh": "YOUR_REFRESH_TOKEN"}' http://localhost:8000/user/token/refresh/
+    3.1 Обновление токена
+        Endpoint: /token/refresh/
+        HTTP метод: POST
+        Параметры:
+        refresh: Refresh токен пользователя.
+        Пример запроса:
+            curl -X POST -H "Content-Type: application/json" -d '{"refresh": "YOUR_REFRESH_TOKEN"}' http://localhost:8000/user/token/refresh/
